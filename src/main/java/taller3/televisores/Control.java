@@ -2,7 +2,7 @@ package taller3.televisores;
 public class Control {
     private TV tv;
 
-    void enlazar(TV tv){
+    public void enlazar(TV tv){
         this.tv = tv;               //attributo -tv- apuntar a objeto -tv-
         this.tv.setControl(this);   //el atributo -tv.control- apunte a -este.control-
     }
