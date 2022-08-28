@@ -17,16 +17,16 @@ public class TV {
     }
 
     //Setters
-    private void setMarca(Marca marca) {
+    public void setMarca(Marca marca) {
         this.marca = marca;
     }
     public void setControl(Control control) {
         this.control = control;
     }
-    private void setPrecio(int precio) {
+    public void setPrecio(int precio) {
         this.precio = precio;
     }
-    private void setVolumen(int volumen) {
+    public void setVolumen(int volumen) {
         this.volumen = volumen;
     }
     public void setCanal(int canal) {
