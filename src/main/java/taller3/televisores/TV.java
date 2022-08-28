@@ -56,6 +56,9 @@ public class TV {
     public boolean getEstado() {
         return estado;
     }
+    public static int getNumTV() {
+        return numTV;
+    }
 
     //otros metodos
     public void turnOn(){
