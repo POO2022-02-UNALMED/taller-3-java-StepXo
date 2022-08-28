@@ -36,7 +36,7 @@ public class Control {
     }
 
     public void setCanal(int canal){
-        if (this.tv.estado && this.tv.canal<120) {
+        if (this.tv.getEstado() && canal<=120 && canal>=1) {
             this.tv.setCanal(canal);
         }
     }
